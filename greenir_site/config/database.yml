@@ -19,8 +19,6 @@ development:
   encoding: unicode
   database: greenir_site_development
   pool: 5
-  username: greenir_site
-  password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +46,11 @@ test:
   encoding: unicode
   database: greenir_site_test
   pool: 5
-  username: greenir_site
-  password:
+
 
 production:
   adapter: postgresql
   encoding: unicode
   database: greenir_site_production
   pool: 5
-  username: greenir_site
-  password:
+

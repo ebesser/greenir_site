@@ -1,0 +1,190 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Styling Starts */
+
+.nav {
+  margin-right: 20px;
+}
+.nav a {
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  color: #00AF33;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  padding-top: 10px;
+}
+
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.logo {
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+/* Navigation Styleing Ends */
+
+
+ /*Homepage Styling Begin*/
+.home {
+  width: 100%;
+  height: 100%;
+  background: url(renewables2.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+
+.home {
+  padding-top: 50px;
+}
+
+.home h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 120px;
+}
+
+.home h3 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 40px;
+}
+
+.home h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.form {
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+.home input {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.home input:focus::-webkit-input-placeholder { color:transparent; }
+.home input:focus:-moz-placeholder { color:transparent; }
+
+.home button {
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 7%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+/* Home Styling Ends */
+
+/* How It Works Styling Begins */
+.how_form {
+  width: 100%;
+  height: 250px;
+  background: url(renewables2.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+  text-align: center;
+}
+
+.how input {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.how input:focus::-webkit-input-placeholder { color:transparent; }
+.how input:focus:-moz-placeholder { color:transparent; }
+
+.how button {
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 7%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+.how_form h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+#how_it_works_intro h1 {
+  text-align: center;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+
+}
+
+#how_it_works_sequence {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* How It Works Styling Ends */
+
+
