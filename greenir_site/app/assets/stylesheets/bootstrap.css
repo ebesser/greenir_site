@@ -3679,6 +3679,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     width: auto;
     border-top: 0;
     box-shadow: none;
+    padding-bottom: 100px;
   }
   .navbar-collapse.collapse {
     display: block !important;

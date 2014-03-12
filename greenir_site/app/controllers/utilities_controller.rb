@@ -12,7 +12,6 @@ class UtilitiesController < ApplicationController
 
   end
 
-
   private 
 
   def utility_params
