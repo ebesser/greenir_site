@@ -293,7 +293,7 @@ body {
     text-align: center;
     margin: 0 auto;
     height: 50px;
-    width: 10%;
+    width: 125px;
     font-size: 20px;
     color: white;
     border: none;
@@ -301,11 +301,94 @@ body {
     background-color: green;
 }
 
+.show {
+   background-color: #f9f9f9;
+   height: 100vh;
+}
+
 .show_results {
-  background-color: #f9f9f9
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+
+#results_dropdown {
+  float: right;
+  margin-top: 10px;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+
+.order_results {
+  /*position: absolute;*/
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  /*display: inline;*/
+  /*float: right;*/
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
 .show input:focus::-webkit-input-placeholder { color:transparent; }
 .show input:focus:-moz-placeholder { color:transparent; }
+
+
+.results .row {
+  height: 150px;
+  width: 100%;
+  border: 1px solid #DCDCDC;
+  margin-top: 30px;
+}
+
+.results img {
+  width: 100%;
+  margin-top: 35px;
+}
+
+#result_bio {
+  margin-top: 18px;
+}
+
+#result_bio a {
+ color: green;
+}
+
+#result_select p {
+  color: green;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#result_select span {
+  font-size: 15px;
+}
+
+#result_select button {
+  vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
 
 /* End Show Page Styling */
